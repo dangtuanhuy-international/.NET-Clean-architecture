@@ -35,13 +35,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examination.Infrastructure.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API.IntegrationTests", "Identity.API.IntegrationTests\Identity.API.IntegrationTests.csproj", "{1EEA7006-6AF9-4621-879E-1C47CD344370}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{901524B8-A59B-4F07-9238-D30584354491}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{79B9FD28-35DD-4697-AA40-0E0055B626AE}"
-	ProjectSection(SolutionItems) = preProject
-		ci-cd-api.yaml = ci-cd-api.yaml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,7 +100,6 @@ Global
 		{3D73B354-6541-434C-B068-2B0DEC406ECA} = {CD1ED937-264A-4512-BD25-AA3C3B144A39}
 		{790042C6-06CB-41B1-9860-795AADCAC047} = {CD1ED937-264A-4512-BD25-AA3C3B144A39}
 		{1EEA7006-6AF9-4621-879E-1C47CD344370} = {0BDEBAF6-0DF8-45E3-A1E0-A07A00304E03}
-		{79B9FD28-35DD-4697-AA40-0E0055B626AE} = {901524B8-A59B-4F07-9238-D30584354491}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C12B0C03-615C-409C-846A-31DE4CE83ABB}
