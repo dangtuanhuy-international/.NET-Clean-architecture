@@ -12,10 +12,10 @@ jobs:
       - name: Check out code 
         uses: actions/checkout@v2
       
-      - name: Setup .net 6
+      - name: Setup .net 5
         uses: actions/setup-dotnet@v1
         with:
-           dotnet-version: '6.x.x' # SDK Version to use; x will use the latest version of the 6 channel
+           dotnet-version: '5.x.x' # SDK Version to use; x will use the latest version of the 6 channel
       
       - name: Restore dependencies 
         run: dotnet restore
